@@ -1,7 +1,7 @@
 [
   {
-    "coverimg": "https://example.com/cover1.jpg",
-    "authorimg": "https://example.com/author1.jpg",
+    "coverimg": "https://i.ibb.co.com/q7PDLYm/1.jpg",
+    "authorimg": "https://i.ibb.co.com/rZMyksT/boy1.jpg",
     "name": "John Doe",
     "id": 1,
     "publist_date": "2023-12-31",
@@ -10,8 +10,8 @@
     "hashtag": "#robotics #technology"
   },
   {
-    "coverimg": "https://example.com/cover2.jpg",
-    "authorimg": "https://example.com/author2.jpg",
+    "coverimg": "https://i.ibb.co.com/6BtfzMz/2.png",
+    "authorimg": "https://i.ibb.co.com/344X5r3/boy2.jpg",
     "name": "Jane Smith",
     "id": 2,
     "publist_date": "2024-01-15",
@@ -20,8 +20,8 @@
     "hashtag": "#space #history"
   },
   {
-    "coverimg": "https://example.com/cover3.jpg",
-    "authorimg": "https://example.com/author3.jpg",
+    "coverimg": "https://i.ibb.co.com/m9zdXZ9/3.png",
+    "authorimg": "https://i.ibb.co.com/HnrBg2Z/girl1.jpg",
     "name": "Michael Johnson",
     "id": 3,
     "publist_date": "2024-02-28",
@@ -30,8 +30,8 @@
     "hashtag": "#ai #future"
   },
   {
-    "coverimg": "https://example.com/cover4.jpg",
-    "authorimg": "https://example.com/author4.jpg",
+    "coverimg": "https://i.ibb.co.com/27B9Q4n/4.jpg",
+    "authorimg": "https://i.ibb.co.com/2Khk00k/girl2.jpg",
     "name": "Emily Davis",
     "id": 4,
     "publist_date": "2024-04-10",
