@@ -1,0 +1,42 @@
+[
+  {
+    "coverimg": "https://example.com/cover1.jpg",
+    "authorimg": "https://example.com/author1.jpg",
+    "name": "John Doe",
+    "id": 1,
+    "publist_date": "2023-12-31",
+    "readTime": 10,
+    "title": "How to Build a Robot",
+    "hashtag": "#robotics #technology"
+  },
+  {
+    "coverimg": "https://example.com/cover2.jpg",
+    "authorimg": "https://example.com/author2.jpg",
+    "name": "Jane Smith",
+    "id": 2,
+    "publist_date": "2024-01-15",
+    "readTime": 20,
+    "title": "The History of Space Exploration",
+    "hashtag": "#space #history"
+  },
+  {
+    "coverimg": "https://example.com/cover3.jpg",
+    "authorimg": "https://example.com/author3.jpg",
+    "name": "Michael Johnson",
+    "id": 3,
+    "publist_date": "2024-02-28",
+    "readTime": 30,
+    "title": "The Future of Artificial Intelligence",
+    "hashtag": "#ai #future"
+  },
+  {
+    "coverimg": "https://example.com/cover4.jpg",
+    "authorimg": "https://example.com/author4.jpg",
+    "name": "Emily Davis",
+    "id": 4,
+    "publist_date": "2024-04-10",
+    "readTime": 40,
+    "title": "Climate Change and Its Impact",
+    "hashtag": "#climatechange #environment"
+  }
+]
