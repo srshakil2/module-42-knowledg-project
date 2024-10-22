@@ -1,4 +1,4 @@
-const Blog = ({ blog }) => {
+const Blog = ({ blog, bookMarkFunk }) => {
   //   console.log(key);
   const { authorimg, coverimg, name, publist_date, readTime, title, hashtag } =
     blog;
@@ -19,7 +19,10 @@ const Blog = ({ blog }) => {
           </div>
         </div>
         <div>
-          <button className=" flex items-center">
+          <button
+            onClick={() => bookMarkFunk(blog)}
+            className=" flex items-center bg-yellow-50 p-3 btn"
+          >
             <span className="text-lg font-semibold">{readTime} minit read</span>
             <img
               src="https://img.icons8.com/?size=48&id=F26W35UAB7WL&format=png"
