@@ -13,8 +13,8 @@ const Blogs = () => {
   // console.log(blogs);
   return (
     <div className=" w-2/3">
-      {blogs.map((blog) => (
-        <Blog blog={blog}></Blog>
+      {blogs.map((blog, idx) => (
+        <Blog key={idx} blog={blog}></Blog>
       ))}
     </div>
   );

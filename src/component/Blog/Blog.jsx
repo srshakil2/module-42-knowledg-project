@@ -1,20 +1,26 @@
 const Blog = ({ blog }) => {
-  const { authorimg, coverimg, name, publist_date, readTime, title } = blog;
+  //   console.log(key);
+  const { authorimg, coverimg, name, publist_date, readTime, title, hashtag } =
+    blog;
 
   return (
-    <div>
-      <img src={coverimg} alt="" />
-      <div>
-        <div>
-          <img src={authorimg} alt="" />
+    <div className="pb-5 pt-5 border-b-2 space-y-3">
+      <img className="rounded-xl" src={coverimg} alt="" />
+      <div className="flex justify-between items-center">
+        <div className="flex items-center gap-3">
+          <img
+            className=" rounded-full w-[80px] h-[80px] object-cover"
+            src={authorimg}
+            alt=""
+          />
           <div>
-            <h4>{name}</h4>
-            <p>{publist_date}</p>
+            <h4 className="text-xl font-bold">{name}</h4>
+            <p className="font-semibold">{publist_date}</p>
           </div>
         </div>
         <div>
-          <button>
-            <span>{readTime} minit read</span>
+          <button className=" flex items-center">
+            <span className="text-lg font-semibold">{readTime} minit read</span>
             <img
               src="https://img.icons8.com/?size=48&id=F26W35UAB7WL&format=png"
               alt=""
@@ -22,6 +28,14 @@ const Blog = ({ blog }) => {
           </button>
         </div>
       </div>
+      <p className="text-2xl font-bold">{title}</p>
+      <p>{hashtag}</p>
+      <button
+        type="button"
+        className="border-b-2 border-pink-700 text-lg text-pink-700"
+      >
+        Mark As Read
+      </button>
     </div>
   );
 };
