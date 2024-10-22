@@ -1,9 +1,16 @@
 import "./App.css";
+import Blogs from "./component/Blogs/blogs";
+import Bookmarks from "./component/Bookmarks/Bookmarks";
 
 function App() {
   return (
     <>
-      <h1 className=" text-4xl">My project</h1>
+      <div className=" w-11/12 mx-auto bg-gray-100 ">
+        <div className="flex gap-2">
+          <Blogs></Blogs>
+          <Bookmarks></Bookmarks>
+        </div>
+      </div>
     </>
   );
 }
